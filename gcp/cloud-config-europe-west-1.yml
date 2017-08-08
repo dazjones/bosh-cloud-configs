@@ -42,7 +42,7 @@ compilation:
 vm_types:
 - name: g1-small
   cloud_properties:
-    backend_service: app
+    backend_service: app-backend
     machine_type: g1-small
     root_disk_size_gb: 10
     root_disk_type: pd-ssd
