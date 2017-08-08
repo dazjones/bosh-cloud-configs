@@ -28,7 +28,6 @@ networks:
       ephemeral_external_ip: false
       network_name: bosh
       subnetwork_name: bosh-europe-west1
-      backend_service: app
       tags:
       - internal
       - no-ip
@@ -43,6 +42,7 @@ compilation:
 vm_types:
 - name: g1-small
   cloud_properties:
+    backend_service: app
     machine_type: g1-small
     root_disk_size_gb: 10
     root_disk_type: pd-ssd
