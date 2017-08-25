@@ -58,3 +58,9 @@ vm_types:
     - compute.readonly
     - devstorage.read_write
     preemptible: true
+
+disk_pools:
+  - name: 100GB
+    disk_size: 100
+    cloud_properties:
+      type: pd-standard
