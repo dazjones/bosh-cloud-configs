@@ -61,6 +61,6 @@ vm_types:
 
 disk_pools:
   - name: 100GB
-    disk_size: 100
+    disk_size: 100000
     cloud_properties:
       type: pd-standard
